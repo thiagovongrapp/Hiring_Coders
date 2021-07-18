@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Nosifer&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #000;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.text{
+    font-family: 'Nosifer', cursive;
+    color: #8B0000;
+}
+
+.background-section-one{
+    background-image: url('/assets/background-section-one.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#question-text{
+    font-size: 40px;
+    margin: 150px -380px;
+}
+
+#promo-text{
+    font-size: 80px;
+    margin: 50px 0px;
+}
+
+#final-message{
+    font-size: 20px;
+    margin: 50px 0px;
+}
+
+.background-section-two{
+    background-image: url('/assets/background-section-two.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container{
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    font-family: 'MedievalSharp', cursive;
+    color: #D3D3D3;
+}
+
+footer{
+    height: 15px;
+    padding: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    #question-text {
+        font-size: 28px;
+        margin: 0;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    #final-message {
+        font-size: 17px;
+        margin: 0;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .background-section-one {
+        background-size: 100% 100%;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .background-section-two {
+        background-size: 100% 100%;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    #question-text {
+        font-size: 25px;
+        margin: 0;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    #final-message {
+        font-size: 15px;
+        margin: 0;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .background-section-one {
+        background-size: 100% 100%;
+    }  
+}
+
+@media screen and (max-width: 600px) {
+    .background-section-two {
+        background-size: 100% 100%;
+    }  
+}
